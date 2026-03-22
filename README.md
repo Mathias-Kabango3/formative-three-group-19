@@ -118,6 +118,9 @@ Average reward over 20 episodes: **1.30**
 
 [Video link](https://youtu.be/CHynYHsX80I)
 
+<video src="[https://youtu.be/CHynYHsX80I]" controls width="300"></video>
+
+
 To run: `python play.py`
 
 ---
