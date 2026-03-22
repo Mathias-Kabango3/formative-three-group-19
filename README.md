@@ -63,7 +63,7 @@ Environment
 
 ---
 
-## Edine Noella Mugunga — MlpPolicy (10 Experiments)
+## Edine Noella Mugisha — MlpPolicy (10 Experiments)
 
 | Exp | lr     | gamma | batch_size | epsilon_start | epsilon_end | epsilon_fraction | Mean Reward    | Noted Behavior                                                                                    |
 | --- | ------ | ----- | ---------- | ------------- | ----------- | ---------------- | -------------- | ------------------------------------------------------------------------------------------------- |
@@ -78,7 +78,7 @@ Environment
 | 9   | 1e-4   | 0.99  | 32         | 1.0           | 0.20        | 0.05             | 0.00           | High eps_end (20% random) meant agent always acted randomly 1/5 of the time — couldn't exploit.  |
 | 10  | 2.5e-4 | 0.995 | 64         | 1.0           | 0.05        | 0.15             | 0.00           | Combo didn't work — slightly higher lr with larger batch and high gamma was unstable for MLP.    |
 
-**Key Insights (Edine Noella Mugunga):**
+**Key Insights (Edine Noella Mugisha):**
 
 - MlpPolicy is much harder to tune than CnnPolicy for Breakout
 - MLP is very sensitive to learning rate — anything above 1e-4 diverged
